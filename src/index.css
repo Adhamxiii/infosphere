@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Martel+Sans:200,300,regular,600,700,800,900);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+main {
+  width: 100%;
+}
+
+header {
+  position: absolute;
+  padding: 20px;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.bg {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  object-position: center;
+}
+
+.bg-purple {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background-color: rgb(95 28 245);
+  mix-blend-mode: multiply;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Martel Sans";
+  color: #fff;
+  font-weight: 600;
+  font-size: 3rem;
+  padding: 0 1.25rem;
+}
+
+.fact-form {
+  position: absolute;
+  top: 65%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #dfd2fd;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.fact-form label {
+  display: block;
+  font-family: "Martel Sans";
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.fact-form input {
+  width: 50px;
+  height: 40px;
+  padding: 5px;
+  font-family: "Martel Sans";
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.fact-form button {
+  background-color: #4c16c4;
+  color: #fff;
+  font-family: "Martel Sans";
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fact-form button:hover {
+  background-color: #391193;
+}
+
+.facts {
+  background-color: #efe8fe;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.facts-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #0c0c0c;
+}
+
+.facts-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.fact {
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 5px;
+  line-height: 1.5;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .fact-form {
+    left: 50%;
+  }
+}
+
