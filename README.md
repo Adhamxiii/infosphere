@@ -9,7 +9,7 @@ InfoSphere is a React web application that allows you to generate interesting fa
   - [Prerequisites](#prerequisites)
   - [Live Demo](#live-demo)
   - [Contributing](#contributing)
-  - [Contact Information](#contact-information)
+  - [Contact Me](#contact-me)
 
 ## Prerequisites
 
@@ -25,10 +25,9 @@ You can experience InfoSphere by visiting the live demo at [Demo Link](https://i
 
 If you want to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request. We welcome contributions to make InfoSphere even better.
 
-## Contact Information
+## Contact Me
 
-If you have any questions or need assistance, you can reach out to the project author:
+If you have any questions or suggestions, feel free to contact me:
 
-- Email: [Adham Nasser](mailto:adhamxiii@gmail.com)
-- LinkedIn: [Adham Nasser](https://www.linkedin.com/in/adham-nasser-xiii/)
-- GitHub: [Adham Nasser](https://github.com/Adham-XIII)
+- GitHub: [Adham Nasser](https://github.com/Adhamxiii)
+- Linkedin: [Adham Nasser](https://www.linkedin.com/in/adhamnasser/)
